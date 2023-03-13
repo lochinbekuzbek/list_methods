@@ -6,6 +6,14 @@
         x(str): parameter
     Returns:
         list: return answer
-*/
+// */
+// import 'dart:io';
 
-void main() {}
+List func(List<String>fruits, String x) {
+  fruits.add(x);
+  return fruits;
+}
+
+void main() {
+  print(func(['banana', 'apple', 'chery'], 'waterelon'));
+}
