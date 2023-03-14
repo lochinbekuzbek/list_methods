@@ -14,7 +14,7 @@ Automated grading of homework assignments and tests
 **Example 1:**
 
 ```Python
-Input: fruits = ["apple", "banana"] x = 'kiwi'
+Input: fruits = ["apple", "banana"];  x = 'kiwi'
 Output: ["apple", "banana", "kiwi"]
 
 ```
