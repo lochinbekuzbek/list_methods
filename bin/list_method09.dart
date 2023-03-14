@@ -6,5 +6,24 @@
     Returns:
         list: return answer
 */
+List func(List fruits) {
+  int l = 0;
+  List b = [];
+  int s = fruits.length;
+  while (s > l) {
+    if (fruits[l] == 'apple') {
+      b.add(l);
+    }
+    l++;
+  }
+  return b;
+}
 
-void main() {}
+void main() {
+  print(func([
+    'apple',
+    'apple',
+    'banana',
+    'kiwi',
+  ]));
+}
