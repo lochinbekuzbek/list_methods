@@ -8,4 +8,10 @@
         list: return answer
 */
 
-void main() {}
+int func(List numbers, int i) {
+  return numbers[i];
+}
+
+void main() {
+  print(func([1, 2, 3, 4, 5], 2));
+}
